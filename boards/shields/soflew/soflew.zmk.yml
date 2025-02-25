@@ -1,6 +1,6 @@
 file_format: "1"
 id: sofle
-name: Sofle
+name: SofleW
 type: shield
 url: https://github.com/josefadamcik/SofleKeyboard
 requires: [pro_micro]
@@ -12,5 +12,5 @@ features:
   - underglow
   - studio
 siblings:
-  - sofle_left
-  - sofle_right
+  - soflew_left
+  - soflew_right
