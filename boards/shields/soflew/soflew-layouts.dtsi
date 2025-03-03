@@ -4,6 +4,7 @@
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "sofle-w";
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
@@ -67,5 +68,14 @@
             , <&key_physical_attrs 100 100 1125  412       0     0     0>
             , <&key_physical_attrs 100 100 1225  437       0     0     0>
             ;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        physical_layout0 {
+            physical-layout = <&physical_layout_0>;
+            positions = <>;
+        };
     };
 };
